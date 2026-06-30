@@ -7,8 +7,8 @@
 }
 
 .left-section {
-    background-color: lightblue;
-    width: 250px;
+    display: flex;
+    align-items: center;
 }
 
 .middle-section {
@@ -22,4 +22,14 @@
 .right-section {
     background-color: lightblue;
     width: 250px;
+}
+
+.hamburger-bar {
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 1px;
+}
+
+.youtube-logo {
+    height: 90px;
 }
